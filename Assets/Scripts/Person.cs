@@ -43,7 +43,7 @@ public abstract class Person : MonoBehaviour
     {
         if (value < 0 || value > 100)
         {
-            Debug.Log("________Error: Некоректне значення здоров'я при старті гри. Здоров'я буде встановлено на значення за замовчуванням - 100.");
+            Debug.Log("________Error: invalid value. set  - 100.");
             objectHP = 100;
         }
         else
